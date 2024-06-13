@@ -1,0 +1,43 @@
+@import "../../index.scss";
+
+.navHeader {
+    @apply 
+    py-8 
+    absolute 
+    z-10 
+    w-full 
+    border-2 
+    border-blue-700;
+}
+
+.navContent {
+    @apply 
+    flex 
+    justify-between 
+    items-center 
+    max-container;
+}
+
+.ulContainer {
+    @apply 
+    flex-1 
+    flex 
+    justify-center 
+    items-center 
+    gap-16 
+    max-md:hidden
+}
+
+.linkTag {
+    @apply 
+    font-montserrat 
+    leading-normal 
+    text-lg 
+    text-slate-gray
+}
+
+.hamburgerBlock {
+    @apply 
+    hidden 
+    max-md:block
+}
