@@ -1,0 +1,34 @@
+@import '../../index.scss';
+
+.shoeDiv {
+    @apply
+    border-2
+    rounded-xl
+}
+
+.activeDiv {
+    @apply
+    border-coral-red
+}
+
+.inActiveDiv {
+    @apply
+    cursor-pointer
+    max-sm:flex-1
+}
+
+.imgContainer {
+    @apply
+    flex
+    justify-center
+    items-center
+    bg-card
+    bg-center
+    bg-cover
+    sm:w-40
+    sm:h-40
+    rounded-xl 
+    max-sm:p-4
+    border-2
+    border-red-800
+}

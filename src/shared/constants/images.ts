@@ -4,6 +4,7 @@ import shieldTick from "../../assets/icons/shield-tick.svg";
 import support from "../../assets/icons/support.svg";
 import truckFast from "../../assets/icons/truck-fast.svg";
 import twitter from "../../assets/icons/twitter.svg";
+import arrowRight from "../../assets/icons/arrow-right.svg";
 
 import bigShoe1 from "../../assets/images/big-shoe1.png";
 import bigShoe2 from "../../assets/images/big-shoe2.png";
@@ -37,4 +38,5 @@ export {
     thumbnailShoe1,
     thumbnailShoe2,
     thumbnailShoe3,
+    arrowRight
 };
