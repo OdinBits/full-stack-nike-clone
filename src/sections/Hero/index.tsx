@@ -27,7 +27,9 @@ const Hero: React.FC = () => {
                         </div>
                     ))}
                 </div>
-                <div className="imgContainer">
+            </div>
+
+            <div className="imgContainer">
                     <img src={bigShoe1} alt="bigShoe1" className="shoeImg" />
                     <div className="">
                     {shoes.map((shoe) => (
@@ -43,7 +45,6 @@ const Hero: React.FC = () => {
                     ))}
                     </div>
                 </div>
-            </div>
         </section>
     )
 }
